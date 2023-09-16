@@ -37,13 +37,11 @@ nav:
 
 
 - KG Projects:
-  
-
-  - Disgenet API: disgenet.md
-  - KEGG API: kegg.md
-  - Mgnify API: mgnify.md
-  - SCOP API: scop.md
-  - Uniprot API: uniprot.md
+  - Drug Repositioning KG: drug-rep.md
+  - Yeast Metabolom KG: yeast-metabolome.md
+  - Disease Gene Association KG: disease-gene.md
+  - Diabetes KG: diabetes.md
+  - Cancer Gene KG: cancer-gene.md
 
 
 
