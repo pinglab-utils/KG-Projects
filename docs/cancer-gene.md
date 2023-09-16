@@ -29,6 +29,11 @@ Explored by: Helena Winata, Jieun Oh, Xinzhe Li
 
 ![img](img/network.png)
 
+
+### Tutorial: [Google Colab notebook is available here](https://drive.google.com/file/d/1FdpD-Brvqk6bznDO30Vp-Hor06n7i1Ef/view?usp=sharing)
+
+
+
 #### QUICK GO API:
 
 - UniProt Consortium. (2023). QuickGO [online]. EMBL-EBI, European Bioinformatics Institute. https://www.ebi.ac.uk/QuickGO (accessed March 11, 2023)

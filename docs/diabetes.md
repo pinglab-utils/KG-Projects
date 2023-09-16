@@ -18,4 +18,5 @@ has not been linked to a protein complex. At the end, all the information will b
 We are able to retrieve 37 genes that are related to Type 1 Diabetes disease. Only 8 proteins are found in the DisGeNET database based on the gene list.
 
 #### Code Availability: 
-https://colab.research.google.com/drive/1KtVqdxsEcVadtODIWjMZkyb HUYyfk1cA?usp=sharing
+
+### Tutorial: [Google Colab notebook is available here](https://colab.research.google.com/drive/1KtVqdxsEcVadtODIWjMZkyb HUYyfk1cA?usp=sharing)

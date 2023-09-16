@@ -64,3 +64,4 @@ pathways but we also observed metabolic and
 lipid-metabolic pathways, as depicted in the table 
 below. We see some consequences of metformin on biological pathways other than the desired insulin-related pathways. These findings are also consistent with recent research. Studies have shown that these novel lipid-metabolic effects suggest that metformin can be repurposed for weight loss. While the use of metformin for weight loss is considered off-label and not approved by the FDA, some studies have suggested that it may be effective in promoting weight loss in certain populations, particularly those with obesity and insulin resistance. Our knowledge graph’s ability to capture these effects demonstrates its utility for drug repositioning research.
 
+### Tutorial: [Google Colab notebook is available here](https://drive.google.com/file/d/1QBNDwiMt7LybO_wV6D86w1m_056zfYD-/view?usp=sharing)

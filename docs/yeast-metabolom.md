@@ -26,14 +26,16 @@ Represent the metabolic functions and inputs present in Yeast to determine  dist
 
 ![img](img/yest-schema.png) 
 
+### Tutorial: [Google Colab notebook is available here](https://drive.google.com/file/d/1QBNDwiMt7LybO_wV6D86w1m_056zfYD-/view?usp=sharing)
+
 
 ### Issues and Further Steps. 
 
-● Duplicate and Missing Records in Yeast Metabolome 
-○ Largely due to lack support and obsolete Data (Group that created database moved on to  humans) 
-○ Duplicate records means number of records severely over inflated 
-○ Requires data to be published first 
-● Multiple pathways given when looking up a particular Protein or metabolite ○ Choose the first 1 displayed, but this results in bias 
-○ Combined with issue 1, limits utility of knowledge graphs, underscoring need for homologation  ● Further work 
-○ Include specific reactions to help narrow down which pathways per protein-Metabolite pair ○ Apply more formal graph theoretical approaches to analyze the data 
-■ Weighted graphs to measure uncertainty?
+- Duplicate and Missing Records in Yeast Metabolome 
+    - Largely due to lack support and obsolete Data (Group that created database moved on to  humans) 
+    - Duplicate records means number of records severely over inflated 
+    - Requires data to be published first 
+- Multiple pathways given when looking up a particular Protein or metabolite ○ Choose the first 1 displayed, but this results in bias 
+    - Combined with issue 1, limits utility of knowledge graphs, underscoring need for homologation  ● Further work 
+    - Include specific reactions to help narrow down which pathways per protein-Metabolite pair ○ Apply more formal graph theoretical approaches to analyze the data 
+- Weighted graphs to measure uncertainty?

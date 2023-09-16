@@ -50,6 +50,8 @@ Explored by: Francesco Musella, Alex Flynn-Carroll, Jack Dodson
 ![img](img/dg-stat.png)
 
 
+### Tutorial: not available; ask authors.
+
 ### Future Directions
 
 - Additional information to add:

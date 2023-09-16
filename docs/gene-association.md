@@ -28,4 +28,9 @@ Therefore, using eQTLs, we were able to find 4 more disease-associated genes!
 
 
 #### Code Availability: 
-https://colab.research.google.com/drive/10QEFjPzxYmpnmNOkDt-t8S5PvlwsbZ8k?usp= sharing
+
+### Tutorial: 
+[Google Colab notebook is available here](https://colab.research.google.com/drive/10QEFjPzxYmpnmNOkDt-t8S5PvlwsbZ8k?usp= sharing)
+
+
+

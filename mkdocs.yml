@@ -38,10 +38,11 @@ nav:
 
 - KG Projects:
   - Drug Repositioning KG: drug-rep.md
-  - Yeast Metabolom KG: yeast-metabolome.md
+  - Yeast Metabolom KG: yeast-metabolom.md
   - Disease Gene Association KG: disease-gene.md
   - Diabetes KG: diabetes.md
   - Cancer Gene KG: cancer-gene.md
+  - Gene Association: gene-association.md
 
 
 
