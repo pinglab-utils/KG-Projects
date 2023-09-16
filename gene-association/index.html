@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Gene Association - KG Projects</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Gene Association";
+    var mkdocs_page_input_path = "gene-association.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> KG Projects</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="tocbase current">
+    
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="..">Home</a>
+  </li>
+    
+      
+  <li class="navtree toctree-l1 label">
+    <p class="caption">KG Projects</p>
+  </li>
+
+
+  
+
+  
+    <li class="navtree toctree-l1 group">
+      <ul class="navtree subnav-l1 current">
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../drug-rep/">Drug Repositioning KG</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../yeast-metabolom/">Yeast Metabolom KG</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../disease-gene/">Disease Gene Association KG</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../diabetes/">Diabetes KG</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../cancer-gene/">Cancer Gene KG</a>
+  </li>
+        
+          
+
+
+  
+    
+    <li class="navtree toctree-l2 page current">
+      <a class="current" href="./">
+        Gene Association
+          <span class="toctree-expand"></span>
+      </a>
+    </li>
+    
+      
+
+  <li class="toctree-l2 current with-children">
+    <a href="#assessing-the-overlap-between-gene-associations-and-variant-associated-egenes">
+      Assessing the overlap between gene associations and variant-associated eGenes
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#description">Description:</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#use-cases">Use Cases:</a>
+        </li>
+    
+      
+          
+
+  <li class="toctree-l3">
+    <a href="#workflow">
+      Workflow:
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l3">
+    <ul class="subnav-l3 toc-hidden">
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#schema">Schema:</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#code-availability">Code Availability:</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#tutorial">Tutorial:</a>
+        </li>
+    
+    </ul>
+  </li>
+
+
+  
+        
+      </ul>
+    </li>
+    
+  </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">KG Projects</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>KG Projects &raquo;</li>
+        
+      
+    
+    <li>Gene Association</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="assessing-the-overlap-between-gene-associations-and-variant-associated-egenes">Assessing the overlap between gene associations and variant-associated eGenes</h2>
+<p>Explored by: <code>Terence Li, Aditya Pimplaskar, Sandy Kim</code></p>
+<h3 id="description">Description:</h3>
+<p>For a given disease, what is the overlap between genes associated with the disease through traditional gene-disease associations vs. genes associated with the disease by way of QTLs? Can we gain more information looking at genes associated with the disease by way of QTLs? </p>
+<h3 id="use-cases">Use Cases:</h3>
+<p>For our investigation, we look at the disease “ulcerative colitis”. </p>
+<h3 id="workflow">Workflow:</h3>
+<p><img alt="img" src="../img/workflow3.png" />
+The biomedical databases/APIs we will be using are GWAS Catalog, GTEx, Ensembl, and DisGeNet. 
+GWAS catalog allows us to extract variant associations from GWAS with a disease of choice. In addition, it allows us to extract the disease EFO identifier from the disease name. GTEx allows us to extract eGenes from those GWAS variants. Ensembl allows us to convert ENS gene identifiers to gene symbols. DisGeNet allows us to extract gene associations with a disease of choice. With all this information, we take the gene associations from DisGeNet and GWAS Catalog + GTEx and seethe overlap and if any more new information can be gained from using eQTLs.</p>
+<h4 id="schema">Schema:</h4>
+<p><img alt="img" src="../img/schema3.png" /></p>
+<p>For disease “ulcerative colitis”: </p>
+<p><img alt="img" src="../img/result3.png" /></p>
+<p>(Sorry, there were so many nodes and edges that the network is indiscernible.) 
+2009 nodes (1 disease, 20 variants, 1989 genes) 
+2388 edges (20 disease-variant, 400 variant-egene, 1964 disease-disease-associated gene, 4 disease-egene) 
+Therefore, using eQTLs, we were able to find 4 more disease-associated genes! </p>
+<h4 id="code-availability">Code Availability:</h4>
+<h3 id="tutorial">Tutorial:</h3>
+<p><a href="https://colab.research.google.com/drive/10QEFjPzxYmpnmNOkDt-t8S5PvlwsbZ8k?usp= sharing">Google Colab notebook is available here</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../cancer-gene/" class="btn btn-neutral" title="Cancer Gene KG"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../cancer-gene/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

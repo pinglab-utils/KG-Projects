@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Disgenet API - KG Projects</title>
+  <title>Yeast Metabolom KG - KG Projects</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Disgenet API";
-    var mkdocs_page_input_path = "disgenet.md";
+    var mkdocs_page_name = "Yeast Metabolom KG";
+    var mkdocs_page_input_path = "yeast-metabolom.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -70,11 +70,18 @@
           
 
 
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../drug-rep/">Drug Repositioning KG</a>
+  </li>
+        
+          
+
+
   
     
     <li class="navtree toctree-l2 page current">
       <a class="current" href="./">
-        Disgenet API
+        Yeast Metabolom KG
           <span class="toctree-expand"></span>
       </a>
     </li>
@@ -82,8 +89,8 @@
       
 
   <li class="toctree-l2 current with-children">
-    <a href="#disgenet">
-      DisGeNET
+    <a href="#minimum-metabolic-pathways-with-the-yeast-metabolome">
+      Minimum Metabolic Pathways  with the Yeast Metabolome
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -95,17 +102,37 @@
     
       
         <li class="toctree-l3">
-          <a class="toctree-l4" href="#description">Description:</a>
+          <a class="toctree-l4" href="#motivation">Motivation</a>
         </li>
     
       
         <li class="toctree-l3">
-          <a class="toctree-l4" href="#use-cases">Use Cases:</a>
+          <a class="toctree-l4" href="#knowledge-graph">Knowledge Graph</a>
         </li>
     
       
         <li class="toctree-l3">
-          <a class="toctree-l4" href="#tutorial">Tutorial:</a>
+          <a class="toctree-l4" href="#sources-yeast-metabolic-database-and-kegg-pathway">Sources: Yeast Metabolic Database and Kegg Pathway</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#workflow">Workflow</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#summary-statistics">Summary Statistics</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#tutorial-google-colab-notebook-is-available-here">Tutorial: Google Colab notebook is available here</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#issues-and-further-steps">Issues and Further Steps.</a>
         </li>
     
     </ul>
@@ -118,28 +145,28 @@
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../kegg/">KEGG API</a>
+    <a class="" href="../disease-gene/">Disease Gene Association KG</a>
   </li>
         
           
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../mgnify/">Mgnify API</a>
+    <a class="" href="../diabetes/">Diabetes KG</a>
   </li>
         
           
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../scop/">SCOP API</a>
+    <a class="" href="../cancer-gene/">Cancer Gene KG</a>
   </li>
         
           
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../uniprot.md">Uniprot API</a>
+    <a class="" href="../gene-association/">Gene Association</a>
   </li>
         
       </ul>
@@ -171,7 +198,7 @@
         
       
     
-    <li>Disgenet API</li>
+    <li>Yeast Metabolom KG</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -181,15 +208,37 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="disgenet">DisGeNET</h2>
-<p>Explored by:</p>
-<h3 id="description">Description:</h3>
-<p>DisGeNET is a aggregative database of gene-disease, variant-disease, and disease-disease associations originally motivated by a desire for a comprehensive dataset for gene-disease modularity analyses. The primary advantage of DisGeNET over other similar association databases is its comprehensiveness and well-defined evidence scores. The developers collect associations from a variety of existing sources and with varying levels of certainty. These sources range from carefully validated databases such as UNIPROT and ClinGen to orthologous animal model databases such as MGD and automated text mining databases such as LHDGN and Clinvar. The collected associations are then integrated with an ad hoc type ontology, and their strengths are quantified with a series of metrics inherited from similar database efforts. When querying DisGeNET, one filters based on these organizational features and receives annotated lists of associations in TSV, JSON, or XML format. Python and R interfaces are available as well. </p>
-<p><a href="https://www.disgenet.org/api/">API documentation is available here</a>. </p>
-<h3 id="use-cases">Use Cases:</h3>
-<p>Identify genetic correlations between diseases in user-specified gene/variant sets ● Recover common biological modules across a large number of diseases ● Validate disease-specific eQTLs by checking paired gene-disease and variant-disease associations (from universal sources) </p>
-<h3 id="tutorial">Tutorial:</h3>
-<p>https://colab.research.google.com/drive/1IeYpwigmcDQi7SPFjPcYiuzabc3rSnJf?usp=sharing</p>
+                <h2 id="minimum-metabolic-pathways-with-the-yeast-metabolome">Minimum Metabolic Pathways  with the Yeast Metabolome</h2>
+<p>Explored by: Timothy Hamilton, Maria Flores</p>
+<h3 id="motivation">Motivation</h3>
+<ol>
+<li>Yeast is a model organism for development and evolution due to its unique  Evolutionary history </li>
+<li>It’s metabolism has analogous steps to most Eukaryotes ● Used to determine what is needed to make “minimally viable cell” ○ What are the minimum number of pathways needed and inputs given for cell to display the  qualities of life</li>
+</ol>
+<h3 id="knowledge-graph">Knowledge Graph</h3>
+<p>Represent the metabolic functions and inputs present in Yeast to determine  distinct groupings  </p>
+<h3 id="sources-yeast-metabolic-database-and-kegg-pathway">Sources: Yeast Metabolic Database and Kegg Pathway</h3>
+<p><img alt="img" src="../img/yest-schema.png" /> </p>
+<h3 id="workflow">Workflow</h3>
+<p><img alt="img" src="../img/yest-kg.png" />  </p>
+<h3 id="summary-statistics">Summary Statistics</h3>
+<p><img alt="img" src="../img/yest-schema.png" /> </p>
+<h3 id="tutorial-google-colab-notebook-is-available-here">Tutorial: <a href="https://drive.google.com/file/d/1QBNDwiMt7LybO_wV6D86w1m_056zfYD-/view?usp=sharing">Google Colab notebook is available here</a></h3>
+<h3 id="issues-and-further-steps">Issues and Further Steps.</h3>
+<ul>
+<li>Duplicate and Missing Records in Yeast Metabolome <ul>
+<li>Largely due to lack support and obsolete Data (Group that created database moved on to  humans) </li>
+<li>Duplicate records means number of records severely over inflated </li>
+<li>Requires data to be published first </li>
+</ul>
+</li>
+<li>Multiple pathways given when looking up a particular Protein or metabolite ○ Choose the first 1 displayed, but this results in bias <ul>
+<li>Combined with issue 1, limits utility of knowledge graphs, underscoring need for homologation  ● Further work </li>
+<li>Include specific reactions to help narrow down which pathways per protein-Metabolite pair ○ Apply more formal graph theoretical approaches to analyze the data </li>
+</ul>
+</li>
+<li>Weighted graphs to measure uncertainty?</li>
+</ul>
               
             </div>
           </div>
@@ -197,10 +246,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../kegg/" class="btn btn-neutral float-right" title="KEGG API">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../disease-gene/" class="btn btn-neutral float-right" title="Disease Gene Association KG">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../drug-rep/" class="btn btn-neutral" title="Drug Repositioning KG"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -226,10 +275,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../drug-rep/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../kegg/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../disease-gene/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
