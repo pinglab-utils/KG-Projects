@@ -1,6 +1,6 @@
 
 
-## Knowledge Graph for Comparing Disease-Gene Associations Across Species
+## Title: Knowledge Graph for Comparing Disease-Gene Associations Across Species
 
 Explored by: Francesco Musella, Alex Flynn-Carroll, Jack Dodson
 

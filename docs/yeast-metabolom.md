@@ -1,6 +1,6 @@
 
 
-## Minimum Metabolic Pathways  with the Yeast Metabolome 
+## Title: Minimum Metabolic Pathways  with the Yeast Metabolome 
 
 Explored by: Timothy Hamilton, Maria Flores
 

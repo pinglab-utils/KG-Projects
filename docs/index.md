@@ -1,18 +1,15 @@
 
-# KG Projects
+# Knowledge Graph Catalog
 
+Welcome to the Knowledge Graph Catalog!
 
-Welcome to knowledge graph  class projects!
+A knowledge graph is a hybrid of a traditional relational database and a graph. It consists of a set of concepts and the relationships among them. In biomedicine, knowledge graphs can be a powerful tool for organizing and interpreting complex biological systems, diseases, and their relationships with genes, proteins, and drugs, enabling more informed decision-making and the development of new treatments and therapies. For example, knowledge graphs can be leveraged for personalized medicine by representing attributes of a patient (e.g., patient's medical history, genetic information, and other relevant data) to tailor treatment plans to the individual patient. In biomedical research, knowledge graphs – consisting of the relationships among biomolecules, functions, and system phenotypes – enable investigators to gain a better understanding of how these systems work and how they may be disrupted in disease states.
 
-A knowledge graph is a hybrid of a traditional relational database and a graph. It consists of a set of concepts and the relationships among them. In biomedicine, knowledge graphs can be a powerful tool for organizing and interpreting complex biological systems, diseases, and their relationships with genes, proteins, and drugs, enabling more informed decision-making and the development of new treatments and therapies. For example, knowledge graphs can be leveraged for personalized medicine by representing attributes of a patient (e.g.,  patient's medical history, genetic information, and other relevant data) to tailor treatment plans to the individual patient. In biomedical research, knowledge graphs – consisting of the relationships among biomolecules, functions, and system phenotypes – enable investigators to gain a better understanding of how these systems work and how they may be disrupted in disease states.
+Knowledge graphs are constructed with a specific purpose, for example, to predict interactions among proteins, biological processes associated with biomolecules, or manifestation of pathology that may be treated by drugs. All relevant data must be curated before performing analyses, analyses such as path-walking methods or machine learning approaches (e.g., link prediction with graph neural networks). 
 
-Knowledge graphs are constructed with a specific purpose, for example, to predict interactions among proteins, biological processes associated with biomolecules, or manifestation of pathology that may be treated by drugs. All relevant data must be curated before performing analyses, analyses such as path-walking methods or machine learning approaches (e.g., link prediction with graph neural networks). The scope of the class project does not focus on performing analyses to answer a biomedical question but rather centers on knowledge graph construction for the hypothetical purpose of answering these questions. 
+These Knowledge Graphs were developed as part of the class projects from UCLA Bioinformatics 201 Winter 2023 and as hands-on projects from Bridge2AI ENABLE Scholar Program.
 
-We have compiled all knowledge graph  class projects collected by students in **BioInfo 201-Winter, 2023, UCLA** class, conducted by **Pinglab UCLA**, as their class project into a unified document. 
-
-
-Each knowledge graph  class project is prepared by a group of students which includes:
-
+Each knowledge graph must include:
 - Title
 - Description
 - Use Cases
@@ -21,7 +18,7 @@ Each knowledge graph  class project is prepared by a group of students which inc
 
 ## A Sample KG Project
 
-Following is a sample knowledge graph  class project prepared by instructors. We encourage students to follow the similar pattern and add more information 
+Following is a sample knowledge graph class project prepared by instructors. We encourage students to follow the similar pattern and add more information.
 
 -----------
 
@@ -31,16 +28,12 @@ Following is a sample knowledge graph  class project prepared by instructors. We
 
 Knowledge Graphs can link diverse sets of data and facts, reveal new relationships, and suggest mechanisms for further study. In this project, various data sets (cardiovascular drugs, diseases, proteins, and pathways) are extracted from biomedical databases and systematically integrated into the Knowledge Graph (KG). In the first place, integrated KG assists in the advanced search and implementation of graph algorithms for underpinning hidden relationships. Next, KG becomes the underlying infrastructure for developing advanced graph-based machine learning (e.g., Graph Neural Network (GNN), Heterogeneous Graph Transformer (HGT)) for link prediction between entities.
 
-
-
 #### Use cases:
 
 Use Cases:
-1.	Novel drug target prediction: Using the knowledge graph to explore the relationship between a cardiovascular disease (CVD) and drugs linked to protein drug targets, which may share multiple biological pathways with many proteins, to help identify potential novel drug targets.
+1. Novel drug target prediction: Using the knowledge graph to explore the relationship between a cardiovascular disease (CVD) and drugs linked to protein drug targets, which may share multiple biological pathways with many proteins, to help identify potential novel drug targets.
 
-2.	Drug repurposing: Find potential new uses of existing drugs by linking drugs with other disease phenotypes that are not currently designated for the drug by examining the complex subgraph of a graph network.
-
-
+2. Drug repurposing: Find potential new uses of existing drugs by linking drugs with other disease phenotypes that are not currently designated for the drug by examining the complex subgraph of a graph network.
 
 #### Workflow: 
 ![img](img/workflow1.png)
@@ -49,8 +42,6 @@ An example of a workflow for Use Case 1 Novel drug target prediction. First, a d
 #### Schema: 
 ![img](img/schema1.png)
 An example of a Knowledge Graph Schema for Use Case 1 Novel drug target prediction. A schema of the knowledge graph, consisting of all four node types and their relationships are depicted. Biomedical resources are detailed adjacent to the node.
-
-
 
 ---------
 

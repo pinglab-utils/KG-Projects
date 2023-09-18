@@ -1,6 +1,6 @@
 
 
-## Knowledge Graph to Visualize Potential Downstream Effects of Drug Repositioning
+## Title: Knowledge Graph to Visualize Potential Downstream Effects of Drug Repositioning
 
 Explored by: Pancho Alvarex, Michael Cheng
 

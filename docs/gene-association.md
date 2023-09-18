@@ -1,4 +1,4 @@
-## Assessing the overlap between gene associations and variant-associated eGenes 
+## Title: Assessing the overlap between gene associations and variant-associated eGenes 
 
 Explored by: ```Terence Li, Aditya Pimplaskar, Sandy Kim ```
 
